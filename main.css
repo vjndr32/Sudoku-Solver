@@ -1,0 +1,22 @@
+input,div[row]{
+  border:1px solid black;
+  outline: none;
+}
+div.bg-warning{
+  color: #000;
+}
+input.bg-secondary,div.bg-secondary{
+  color:#fff;
+}
+input[col="0"],div[col="0"]{
+  border-left: 3px solid black;
+}
+input[col="2"],input[col="5"],input[col="8"],div[col="2"],div[col="5"],div[col="8"]{
+  border-right: 3px solid black;
+}
+input[row="0"],div[row="0"]{
+  border-top: 3px solid black;
+}
+input[row="2"],input[row="5"],input[row="8"],div[row="2"],div[row="5"],div[row="8"]{
+  border-bottom: 3px solid black;
+}
